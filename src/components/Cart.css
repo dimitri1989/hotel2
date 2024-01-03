@@ -1,0 +1,99 @@
+@keyframes opacity {
+  from {opacity: 0}
+  50% {opacity: 0.80}
+  to {opacity: 1}
+}
+.resertvation-cart{
+    position: absolute;
+    right: 0;
+    top:0;
+    
+    height: 100%;
+    z-index: 20;
+    flex-shrink: 0;
+    display: flex;
+    border-radius: 28px;
+    flex-direction: column;
+    align-items: center;
+    background: var(--White, #FFF);
+    animation: opacity 1s;
+    box-shadow: 0px 11px 23px 0px rgba(0, 0, 0, 0.18);
+  }
+  .resertvation-cart .icon-done-background{
+    background-color: #ebedf1;
+    width: 30%;
+    height: 30%;
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .resertvation-cart .icon-done-background-circle{
+    width: 50%;
+    height: 50%;
+    background: #afc8f2;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .resertvation-cart .circle-icon{
+    font-size: 50px;
+    color:#1F64E7;
+  }
+  .resertvation-cart .cart-date-title{
+    color: #4A4A4A;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .resertvation-cart .cart-date{
+    width: 90%;
+    height: 10%;
+    border: #1F64E7 dotted 1px;
+    margin-top: 10px;
+  }
+  .resertvation-cart .cart-date-text-date{
+    font-size: 18px;
+    color:#0a0c0f;
+    font-weight: 700;
+    padding-top: 5px;
+    
+  }
+  .resertvation-cart .cart-adult{
+    font-size: 18px;
+    color:#0a0c0f;
+    font-weight: 700;
+  }
+  .resertvation-cart .box-3{
+    height: 50px;
+    width: 25%;
+  }
+  .icon-card{
+    position: absolute;
+    right: 10px;
+    top:0;
+    font-size: 50px;
+
+  }
+  .icon-card:hover{
+    cursor: pointer;
+    color: red;
+  }
+  .resertvation-cart .delete-icon{
+    font-size: 50px;
+    color:rgb(51, 115, 193);
+    background: none;
+    position: absolute;
+    right: 10px;
+    top: -54px;
+    animation: opacity 1s;
+  }
+  .resertvation-cart .delete-icon:hover{
+    color:rgb(242, 14, 98);
+  }
+  

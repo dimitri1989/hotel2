@@ -1,0 +1,251 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.App {
+  max-width: 1400px;
+  position: relative;
+
+}
+
+/*.header-carusel img{
+    width: 1440px;
+    height: 401.28px;
+    border-radius: 10px;
+      
+}*/
+.App nav{
+  border-radius: 18px;
+  display: block;
+  padding: 19px 49px;
+  margin: 0 auto;
+  gap: 5px;
+  max-width: 1096px;
+  margin-top: 20px;
+  
+  
+  
+}
+.positiondiv{
+  position: absolute;
+  z-index: 20;
+  right: 10%;
+  left: 10%;
+  background-color: #fff;
+}
+.positiondiv2{
+  position: static;
+  max-width: 1096px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 50px;
+  background-color: rgb(236, 231, 231);
+
+}
+.nav-link{
+  color: #262626;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 9%;
+  text-decoration: none;
+  text-decoration: none;
+   
+}
+.App nav h4{
+  color: #262626;
+  font-family: Inika;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  margin-right: 20px;
+
+  line-height: 80.3%; /* 20.576px */  
+}
+.reservation{
+  border-radius: 42px;
+  background: #E9F3F6;
+  max-width: 1194px;
+  height: 320px;
+  margin: 0 auto;
+  margin-top: 80px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.reservation h2{
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;  
+}
+.reservation p{
+  color: #5E5E5E;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal; 
+}
+.reservation-input{
+  width: 265px;
+  height: 60px;
+  position: relative;
+  border-radius: 12px;
+
+}
+input[type="date" i]::-webkit-calendar-picker-indicator {
+  background:url(./components/header/icons/date.svg) ;
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  background-size: contain;
+  block-size: 1em;
+  inline-size: 1em;
+  opacity: 1;
+  outline: none;
+  padding: 2px;
+  position: relative;
+  z-index: 0;
+  cursor: pointer;
+  margin-right: 15px;
+  margin-left: 35px;
+
+}
+.reservation-input-box{
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  margin-left:20px;
+  border-radius: 12px;
+  width: 35%;
+  height: 120px;
+  flex-direction: column;
+}
+.reservation-input-box input{
+  border: 0;
+  outline: none;
+  display: flex;
+  border-radius: 12px;
+  flex-direction: row-reverse;
+  height: 60px;
+
+}
+.reservation form{
+  display: flex;
+  width: 85%;
+}
+.reservation-input-box2{
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  height: 60px;
+  margin-left:20px;
+  border: 0;
+  border-radius: 12px;
+  margin-right: 8px;
+  height: 120px;
+  flex-direction: column;
+}
+.reservation-input-box2 input{
+  height: 60px;
+}
+.box-5{
+  height: 60px;
+  display: flex;
+  background: #ffffff;
+  border-radius: 12px;
+}
+.box-3{
+  display: flex;
+  justify-content: space-around;
+  width: 45%;
+  height: 60px;
+  margin-left:20px;
+  align-items: center;
+}
+.box-3 p{
+  color: #1E1E1E;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+}
+.box-4{
+  width: 50%;
+}
+
+.box-3 input[type="number" i]::-webkit-calendar-picker-indicator {
+  outline: 0;
+  border: 0;
+  margin-right: 15px;
+  background:url(./components/header/icons/Vector.svg) no-repeat;
+}
+.box-4 input[type="date" i]::-webkit-calendar-picker-indicator{
+  padding: 2px;
+  outline: 0;
+  border: 0;
+  margin-right: 15px;
+  background-color: rgb(233, 27, 112);
+  background:url(./components/header/icons/Vector.svg) no-repeat;
+}
+.box-4 input{
+  width: 100%;
+  border: 0;
+  outline: 0;
+  height: 60px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.box button, input, optgroup, select, textarea {
+  outline: 0;
+  border: 0;
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.reservation__text{
+  margin-bottom: 57px;
+}
+.btn-reserv{
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;  
+}
+h4{
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;  
+}
+button, [type="button"], [type="reset"], [type="submit"] {
+  -webkit-appearance: button;
+  height: 59px;
+  margin-top: 50px;
+}

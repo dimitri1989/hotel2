@@ -1,0 +1,124 @@
+.rooms-way{
+    max-width: 1194px;
+    margin: 0 auto;
+    margin-top: 2px;
+}
+.rooms-way a{
+    width: 50px;
+    text-decoration: none;
+    background-color: #F3F3F3;
+    padding: 2px;
+    margin-top: 2px;
+    color: #181818;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 18px */
+}
+.room-container{
+    width: 100%;
+    background: #F3F3F3;
+    border-radius: 10px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin-top: 80px;
+}
+.rooms{
+    max-width: 1280px;
+    margin: 0 auto;
+    
+}
+.rooms .rooms-bigImg{
+    max-width: 400px;
+    margin-right: 20px;
+    position: relative;
+}
+.rooms .rooms-bigImg img{
+    width: 100%;
+    border-radius: 42px; 
+}
+.rooms .room-item{
+
+    height: 100%;
+    position: relative;
+    margin-bottom: 5%;
+    transition: transform .2s ease-in-out,-webkit-transform .2s ease-in-out!important;
+   
+}
+.rooms .room-item:hover{
+    cursor: pointer;
+   
+}
+.rooms .room-item img{
+    width: 100%;
+    border-radius: 42px;
+}
+.rooms-title{
+    position: absolute;
+    right: 20%;
+    left: 35%;
+    bottom: 10%;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.rooms-title2{
+    position: absolute;
+    right: 20%;
+    left: 15%;
+    bottom: 25%;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+
+/* rooms details*/
+.room-details{
+    max-width: 1194px;
+    background: #F3F3F3;
+    margin: 0 auto;
+    border-radius: 10px;
+    min-height: 754px;
+}
+.custom-slider{
+    max-width: 700px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.details{
+    max-width: 500px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 16%);
+}
+.room-details h1{
+    color: #00B3F6;
+    text-align: center;
+    margin:0;
+}
+.room-details h2{
+    color: #00B3F6;
+    text-align: center;
+    margin:0;
+    font-size: 25px;
+}
+.details__text{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.details__price{
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+}

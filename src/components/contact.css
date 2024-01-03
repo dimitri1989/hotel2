@@ -1,0 +1,73 @@
+.contact{
+    width: 100%;
+    margin-top: 20px;
+    background: #F3F3F3;
+}
+.contact .email-form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+.contact p{
+    color: #000000;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+.contact input[type=email]{
+    margin-top: 10px;
+    border-radius:7px;
+    background: #d2d2d2;
+    width: 100%;  
+    height: 40px;
+    color: #000000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 30px; 
+}
+.contact input[type=text]{
+    margin-top: 10px;
+    border-radius:7px;
+    background: #d2d2d2;
+    width: 100%;  
+    height: 70px;
+    color: #000000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    padding-left: 30px;
+}
+.contact input[type=submit]{
+    margin-top: 10px;
+    border-radius:7px;
+    background: #7a6666;
+    width: 100%;  
+    height: 70px;
+    color: #dacaca;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    padding-left: 30px;
+}
+.contact input[type=submit]:hover{
+    background-color: #534545;
+}
+.contact .sms{
+    color: #1b752f;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+}

@@ -1,0 +1,136 @@
+.offer{
+    width: 100%;
+    background: #ffffff;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+.offer .offer-container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.offer .offers-texts{
+    display: flex;
+    margin-bottom: 50px;
+    padding: 29px;
+    justify-content: space-between;
+}
+.offer .Special-Offers{
+    color: #65AEF2;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+.offer .Best-offer{
+    color: #000;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+    margin-bottom: 20px;   
+}
+.offer .Experience{
+    color: #1E1E1E;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+}
+.offer .View-all{
+    color: #65AEF2;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 68px;
+    background: none;
+}
+.offer .items{
+    transition: transform .2s ease-in-out,-webkit-transform .2s ease-in-out!important;
+    border-radius: 42px;
+    background: #ffffff;
+    max-width: 400px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 60px 0px rgba(0, 52, 101, 0.25);
+}
+.offer .items:hover{
+    cursor:pointer;
+    outline: 0;
+    transform:scale(1.1);
+}
+.offer .items__img{
+    padding: 20px;
+}
+.offer .items__img img{
+    width: 100%;
+    width: 100%;
+    border-radius: 24px;
+    height: 171px;
+}
+.offer .items-text-container{
+    padding: 20px;
+}
+.offer .rooms{
+    color: #5E5E5E;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    margin-bottom: 10px;   
+}
+.offer  .Honeymoon{
+    color: #1E1E1E;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    margin-bottom: 10px;   
+}
+.offer .count-people{
+    font-size: 16px;
+    line-height: normal;
+    
+   
+    
+}
+.offer .text{
+    padding-bottom: 1px;
+}
+.offer .items-text{
+    color: #5E5E5E;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;   
+    margin-bottom: 20px; 
+    min-height: 65px;
+}
+.offer .price-text{
+    color: #1E1E1E;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    margin-bottom: 20px;   
+}
+.offer .night{
+    color: #1E1E1E;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;  
+    padding-top: 15px;
+}
+.offer a{
+    text-decoration: none;
+}

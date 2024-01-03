@@ -1,0 +1,24 @@
+.header{
+    width: 100%;
+    height: 401.28px;
+}
+.caruselimg {
+    height: 401.28px;
+    border-radius: 10px;
+
+}
+.carousel-caption{
+    text-align: left;
+    right: 0px;
+}
+.carousel-caption h5{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    max-width: 898px;
+       
+}
+
